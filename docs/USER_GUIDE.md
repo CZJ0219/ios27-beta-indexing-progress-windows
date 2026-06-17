@@ -18,14 +18,15 @@
 4. 如果 iPhone 弹出提示，点“信任此电脑”。
 5. 在 iPhone 上打开“设置”App。
 6. 双击 `Start-iOS-Indexing-Checker.cmd`。
-7. 回到工具窗口，按 Enter 开始。
+7. 选择 English 或中文。
+8. 回到工具窗口，按 Enter 开始。
 
 ## 结果怎么看
 
 看到类似这一行，就代表工具已经读到索引进度：
 
 ```text
-iOS indexing progress: 85%
+iOS 索引进度：85%
 ```
 
 如果多次看到同一个百分比，通常表示 iPhone 仍在报告同一个阶段，不一定是工具卡住。

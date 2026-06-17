@@ -26,7 +26,10 @@ param(
 
     [string]$InputPath,
 
-    [switch]$Raw
+    [switch]$Raw,
+
+    [ValidateSet("en", "zh")]
+    [string]$Language = "en"
 )
 
 Set-StrictMode -Version 2.0

@@ -23,7 +23,8 @@ Connect your iPhone over USB, run the tool, and it will show the latest indexing
 4. Tap "Trust This Computer" if the iPhone asks.
 5. Open the Settings app on the iPhone.
 6. Double-click `Start-iOS-Indexing-Checker.cmd`.
-7. Press Enter in the tool window when prompted.
+7. Choose English or Chinese.
+8. Press Enter in the tool window when prompted.
 
 When it works, you will see a line like this:
 

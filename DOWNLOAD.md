@@ -13,4 +13,4 @@
 3. 解锁 iPhone，并在提示出现时点“信任此电脑”。
 4. 在 iPhone 上打开“设置”App。
 5. 双击 `Start-iOS-Indexing-Checker.cmd`。
-6. 按窗口提示操作。
+6. 选择 English 或中文，然后按窗口提示操作。
