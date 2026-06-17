@@ -11,9 +11,9 @@ Connect your iPhone over USB, run the tool, and it will show the latest indexing
 
 ## Download
 
-[Download the Windows ZIP](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
+[Download the Windows ZIP by GitHub](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
 
-You do not need Python, Git, or any command-line setup.
+[Download ZIP by Tencent Weiyun](https://share.weiyun.com/H5B7bCUz)
 
 ## How To Use
 
