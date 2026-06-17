@@ -5,85 +5,73 @@
 
 # iOS 27 Beta Indexing Progress Checker for Windows
 
-A small Windows utility for checking the actual iPhone "Indexing in Progress" percentage.
+A simple Windows tool for people whose iPhone says "Indexing in Progress" but does not show a percentage.
 
-It follows the same idea as the macOS Console method: stream live iPhone logs, look for Spotlight / Settings indexing messages, and extract `PipelineCompleteness`.
+Connect your iPhone over USB, run the tool, and it will show the latest indexing percentage reported by the phone.
 
-## Download for Regular Users
+## Download
 
-No clone needed. No GitHub experience needed.
+[Download the Windows ZIP](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
 
-Download the Windows offline package here:
+You do not need Python, Git, or any command-line setup.
 
-[Download iOS_Indexing_Checker_Windows_NoPython.zip](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
+## How To Use
 
-Fallback:
+1. Download and unzip `iOS_Indexing_Checker_Windows_NoPython.zip`.
+2. Connect your iPhone with a USB cable.
+3. Unlock the iPhone.
+4. Tap "Trust This Computer" if the iPhone asks.
+5. Open the Settings app on the iPhone.
+6. Double-click `Start-iOS-Indexing-Checker.cmd`.
+7. Press Enter in the tool window when prompted.
 
-[dist/iOS_Indexing_Checker_Windows_NoPython.zip](dist/iOS_Indexing_Checker_Windows_NoPython.zip)
-
-End users do not need to install Python or download dependencies.
-
-## Source Code
-
-Only developers need to clone this repository.
-
-## Quick Start
-
-1. Extract `iOS_Indexing_Checker_Windows_NoPython.zip`.
-2. Connect the iPhone over USB.
-3. Unlock the iPhone and tap "Trust This Computer" if prompted.
-4. Open Settings on the iPhone.
-5. Double-click `Start-iOS-Indexing-Checker.cmd`.
-6. Follow the window prompts.
-
-Expected output:
+When it works, you will see a line like this:
 
 ```text
-Connected. Waiting for Spotlight indexing logs...
-[19:48:27] iOS indexing progress: 85%
-Latest iOS indexing progress seen: 85%
+iOS indexing progress: 85%
 ```
+
+If a percentage does not appear immediately, leave the iPhone unlocked and wait a little longer. The phone does not report indexing progress every second.
 
 ## Requirements
 
 - Windows 10 or Windows 11.
-- iPhone connected over USB.
-- Windows can recognize the iPhone.
-- Apple Devices or iTunes is installed, so Windows has `Apple Mobile Device Service`.
+- An iPhone running iOS 27 beta.
+- A USB cable that supports data transfer.
+- Apple Devices or iTunes installed if this PC has never connected to an iPhone before.
 
-Apple's iPhone USB/mobile-device driver is not bundled with this project. If a computer has never installed Apple Devices or iTunes, it must install one of them first.
+If Windows cannot see the iPhone in File Explorer, Apple Devices, or iTunes, this tool will not be able to see it either.
+
+## If It Seems Stuck
+
+- Keep the iPhone unlocked.
+- Keep the Settings app open on the iPhone.
+- Confirm that you tapped "Trust This Computer".
+- Unplug and reconnect the USB cable.
+- Try another USB port or another cable.
+
+More help: [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## Privacy
 
-The tool reads live logs locally and filters for indexing progress. It does not upload logs anywhere.
+The tool runs locally on your PC. It does not upload logs, collect telemetry, or connect to a server run by this project.
 
-If something goes wrong, the launcher writes a local log file next to the tool:
+A local troubleshooting log may be created next to the tool. If you share that log publicly, remove device names, device IDs, Apple IDs, phone numbers, emails, and anything else you do not want to publish.
 
-```text
-ios-indexing-checker.log
-```
+<details>
+<summary>For developers and contributors</summary>
 
-Before sharing logs publicly, remove or mask device names, UDIDs, and other personal information.
+Most people only need the ZIP above. If you want to inspect the source code or build the package yourself, read:
 
-## Verified
-
-This tool was tested on Windows with an iOS 27.0 beta device and successfully read:
-
-```text
-PipelineCompleteness: 85%
-```
-
-## Documentation
-
-- [User guide](docs/USER_GUIDE.md)
-- [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Developer notes](docs/DEVELOPER.md)
 - [Privacy notes](docs/PRIVACY.md)
-- [Developer build guide](docs/DEVELOPER.md)
 - [Changelog](CHANGELOG.md)
+
+</details>
 
 ## Disclaimer
 
-This is not an Apple tool and is not affiliated with Apple. It depends on the Apple Mobile Device channel already installed on Windows to read logs from an iPhone you own or are authorized to inspect.
+This is not an Apple tool and is not affiliated with Apple. Use it only with an iPhone you own or have permission to inspect.
 
 ## License
 

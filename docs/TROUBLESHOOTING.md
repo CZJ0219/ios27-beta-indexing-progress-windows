@@ -21,9 +21,9 @@
 3. 换一根数据线或 USB 口。
 4. 打开 Apple Devices 或 iTunes，确认 Windows 能识别 iPhone。
 
-## 显示没有 Apple Mobile Device Service
+## 提示缺少 Apple 连接组件
 
-这台 Windows 缺少 Apple 的 iPhone 连接通道。请安装 Apple Devices 或 iTunes，然后重新运行工具。
+如果窗口里提到 `Apple Mobile Device Service`，说明这台 Windows 缺少 Apple 的 iPhone 连接组件。请安装 Apple Devices 或 iTunes，然后重新运行工具。
 
 这个驱动来自 Apple，不能直接打包进本项目。
 
@@ -44,7 +44,7 @@
 
 ## Windows 安全提示
 
-离线包里的 exe 是用 PyInstaller 打包的自包含程序。首次运行时，Windows Defender 或其他安全软件可能会扫描一会儿。只要窗口还在显示心跳，就说明它仍在运行。
+第一次运行时，Windows Defender 或其他安全软件可能会扫描一会儿。只要窗口仍然在更新提示，就说明工具还在运行。
 
 ## 提交问题时请附带
 
@@ -54,4 +54,4 @@
 - 是否能在 Apple Devices/iTunes 中看到 iPhone。
 - `ios-indexing-checker.log` 中的相关片段。
 
-请遮盖设备名、UDID、Apple ID、手机号、邮箱等个人信息。
+请遮盖设备名、设备 ID（UDID）、Apple ID、手机号、邮箱等个人信息。
