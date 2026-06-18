@@ -11,9 +11,9 @@
 
 ## 下载
 
-[下载 Windows ZIP 包（GitHub）](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
+[下载 ZIP 包（GitHub）](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
 
-[下载 Windows ZIP 包（腾讯微云）](https://share.weiyun.com/H5B7bCUz)
+[下载 ZIP 包（腾讯微云）](https://share.weiyun.com/H5B7bCUz)
 
 ## 使用方法
 
@@ -26,22 +26,22 @@
 7. 选择 English 或中文。
 8. 按窗口提示按 Enter。
 
-正常情况下会看到类似：
+正常情况下会看到：
 
 ```text
-iOS 索引进度：85%
+iOS Indexing Progress：85%
 ```
 
-如果没有马上出现百分比，不一定是卡住。请保持 iPhone 解锁，稍微多等一会儿；iPhone 不会每秒都报告索引进度。
+如果没有马上出现百分比，不一定是卡住。请保持 iPhone 解锁，稍微多等一会儿
 
-## 需要什么
+## 设备要求
 
 - Windows 10 或 Windows 11。
-- 一台 iOS 27 beta 的 iPhone。
+- 一台运行 iOS 27 beta (iPadOS 27 Beta)的 iPhone (iPad)。
 - 一根支持数据传输的 USB 线。
 - 如果这台电脑以前从没连过 iPhone，请先安装 Apple Devices 或 iTunes。
 
-如果 Windows 的文件资源管理器、Apple Devices 或 iTunes 都看不到这台 iPhone，这个工具也看不到。
+如果 Windows 的文件资源管理器、Apple Devices 或 iTunes 都识别不到这台 iPhone，此软件也无法识别。
 
 ## 如果看起来没反应
 
@@ -51,24 +51,11 @@ iOS 索引进度：85%
 - 拔掉 USB 线再插一次。
 - 换一个 USB 口，或者换一根线。
 
-更多排查方法见：[故障排查](docs/TROUBLESHOOTING.md)
-
 ## 隐私
 
-工具只在你的电脑本机运行。它不会上传日志，不会收集遥测，也不会连接本项目的服务器。
+本工具只在本地运行，不会上传日志，不会收集遥测，也不会连接本项目的服务器。
 
-同目录下可能会生成一份用于排查问题的本地日志。如果你要公开分享日志，请先遮盖设备名、设备 ID、Apple ID、手机号、邮箱，以及任何你不想公开的信息。
-
-<details>
-<summary>给开发者和贡献者</summary>
-
-大多数人只需要下载上面的 ZIP 包。如果你想看源码、自己构建，或参与改进，可以继续查看：
-
-- [开发者说明](docs/DEVELOPER.md)
-- [隐私说明](docs/PRIVACY.md)
-- [更新日志](CHANGELOG.md)
-
-</details>
+同目录下可能会生成一份用于排查问题的本地日志。
 
 ## 免责声明
 
