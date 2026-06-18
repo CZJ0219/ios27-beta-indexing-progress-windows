@@ -5,15 +5,15 @@
 
 # iOS 27 Beta Indexing Progress Checker for Windows
 
-A simple Windows tool for people whose iPhone says "Indexing in Progress" but does not show a percentage.
+A simple Windows tool for iOS 27 devices with "Indexing in Progress" in Settings but does not show a percentage.
 
 Connect your iPhone over USB, run the tool, and it will show the latest indexing percentage reported by the phone.
 
 ## Download
 
-[Download the Windows ZIP by GitHub](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
+[Download ZIP (GitHub)](https://github.com/CZJ0219/ios27-beta-indexing-progress-windows/releases/latest/download/iOS_Indexing_Checker_Windows_NoPython.zip)
 
-[Download ZIP by Tencent Weiyun](https://share.weiyun.com/H5B7bCUz)
+[Download ZIP (Tencent Weiyun)](https://share.weiyun.com/H5B7bCUz)
 
 ## How To Use
 
@@ -32,16 +32,16 @@ When it works, you will see a line like this:
 iOS indexing progress: 85%
 ```
 
-If a percentage does not appear immediately, leave the iPhone unlocked and wait a little longer. The phone does not report indexing progress every second.
+If a percentage does not appear immediately, leave the iPhone unlocked and wait a little longer.
 
 ## Requirements
 
 - Windows 10 or Windows 11.
-- An iPhone running iOS 27 beta.
+- An iPhone/iPad running iOS 27 beta (iPadOS 27 Beta).
 - A USB cable that supports data transfer.
 - Apple Devices or iTunes installed if this PC has never connected to an iPhone before.
 
-If Windows cannot see the iPhone in File Explorer, Apple Devices, or iTunes, this tool will not be able to see it either.
+If you can't see your devices on File Explorer, Apple Devices, or iTunes, this tool will not be able to see it either.
 
 ## If It Seems Stuck
 
@@ -51,22 +51,11 @@ If Windows cannot see the iPhone in File Explorer, Apple Devices, or iTunes, thi
 - Unplug and reconnect the USB cable.
 - Try another USB port or another cable.
 
-More help: [Troubleshooting](docs/TROUBLESHOOTING.md)
-
 ## Privacy
 
 The tool runs locally on your PC. It does not upload logs, collect telemetry, or connect to a server run by this project.
 
 A local troubleshooting log may be created next to the tool. If you share that log publicly, remove device names, device IDs, Apple IDs, phone numbers, emails, and anything else you do not want to publish.
-
-<details>
-<summary>For developers and contributors</summary>
-
-Most people only need the ZIP above. If you want to inspect the source code or build the package yourself, read:
-
-- [Developer notes](docs/DEVELOPER.md)
-- [Privacy notes](docs/PRIVACY.md)
-- [Changelog](CHANGELOG.md)
 
 </details>
 
