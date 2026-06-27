@@ -3,6 +3,9 @@
   <a href="README.zh-CN.md">中文</a>
 </p>
 
+> [!IMPORTANT]
+> Apple has changed iOS 27 beta so tools like this can no longer read indexing progress from device logs. This project no longer works for checking iOS 27 indexing progress; the information below is kept only for historical reference.
+
 # iOS 27 Beta Indexing Progress Checker for Windows
 
 A simple Windows tool for iOS 27 devices with "Indexing in Progress" in Settings but does not show a percentage.
