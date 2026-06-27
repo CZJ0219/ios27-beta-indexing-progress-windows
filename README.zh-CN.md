@@ -3,6 +3,9 @@
   <strong>中文</strong>
 </p>
 
+> [!IMPORTANT]
+> Apple 已调整 iOS 27 beta，类似工具已无法再从设备日志中读取索引进度。因此本工具目前已无法用于查询 iOS 27 的索引进度；以下内容仅保留作历史参考。
+
 # iOS 27 Beta 索引进度查询工具（Windows）
 
 当 iPhone 显示“正在索引 / Indexing in Progress”，但界面没有告诉你百分比时，可以用这个 Windows 小工具看一下当前进度。
